@@ -1,57 +1,32 @@
-Microcontroller connected to aquarium:                                                                 Digital IO:            Analog pins:
+Microcontroller connected to aquarium:                                                         Digital IO:            Analog pins:
 
 Actuator     Light with or without dimming facilities. 1-10V, LED, HQI etc.                    1 (PWM)
-
 Actuator     Heating element.                                                                  1
-
 Sensor       Temperature. Double Temp. Sensor.                                                                        2
-
 Sensor       pH-Probe.                                                                                                1
-
 Sensor       TDS-probe.                                                                                               1
-
 Logic        Calibration of pH-probe                                                           0
-
 Logic        Light dimming (during change of date etc.).                                       0
-
 Actuator     Temperature alarms for high/low temp. Alarm for sensor variance.                  1 (PWM)
-
 Sensor       Water level. Capacitive, Float switch etc.                                        1
-
 Actuator     Local display                                                                     2
-
- 
-
  
 
 Microcontroller not connected to aquarium:
 
 Sensor       Water level. capacitive, float switch                                             1
-
 Actuator     Water change                                                                      2-4
-
 Logic        Water change                                                                      0
-
 Sensor       Flow sensor                                                                                                1
-
 Logic        Flow alarm                                                                        1 (PWM)
-
 Actuator     Mixing from water softening unit (peat filter)                                    1
-
 Sensor       pH-probe                                                                                                   1
-
 Actuator     Mixing from water hardening unit                                                  1
-
 Sensor       TDS-probe                                                                                                  1
-
 Logic        Mixing of water. Tap W., osmosis water, soft vann, hard vann.                     0
-
 Sensor       TDS in osmosis unit. Alarms for change of filters, membranes and ion exchangers.                           2
-
  
 
 Main controller (PC/Raspberry Pi):
-
 Web interface for organizing and display of water volumes and aquarium information.
-
 Database for storage of logs and settings.
