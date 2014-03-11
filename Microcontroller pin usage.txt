@@ -30,8 +30,3 @@ Sensor       TDS in osmosis unit. Alarms for change of filters, membranes and io
 Main controller (PC/Raspberry Pi):
 Web interface for organizing and display of water volumes and aquarium information.
 Database for storage of logs and settings.
-
-
--
--
--
