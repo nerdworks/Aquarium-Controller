@@ -1,4 +1,4 @@
-Microcontroller connected to aquarium:                                                         Digital IO:            Analog pins:
+   Microcontroller connected to aquarium:                                                         Digital IO:            Analog pins:
 
 Actuator     Light with or without dimming facilities. 1-10V, LED, HQI etc.                    1 (PWM)
 Actuator     Heating element.                                                                  1
